@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.dropbtn {
+    border: none;
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 10px 34px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: rgb(16, 152, 145);
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.drop-content a {
+    color: #222;
+    padding: 10px 34px;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+}
+
+.drop-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
